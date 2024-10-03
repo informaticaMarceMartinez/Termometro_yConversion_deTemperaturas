@@ -59,7 +59,9 @@ Bienvenido a mi proyecto **Termómetro y Temperaturas**, una app interactiva que
 Este proyecto es una excelente oportunidad para practicar habilidades en desarrollo web, especialmente en la creación de aplicaciones interactivas utilizando HTML, CSS y JavaScript. Anima a los nuevos desarrolladores a explorar la lógica detrás de las conversiones de temperatura y a mejorar la accesibilidad del proyecto.
 
 ---
-Nota para Potenciales Empleadores 💼
+
+## Nota para Potenciales Empleadores 💼
+
 Este proyecto de Termómetro y Temperaturas demuestra mi habilidad para crear aplicaciones web interactivas y educativas. Refleja mi compromiso con:
 Diseño Intuitivo: Una interfaz clara y fácil de usar que mejora la experiencia del usuario.
 Funcionalidad Práctica: Conversión precisa de temperaturas y visualización dinámica.

@@ -1,0 +1,357 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    margin: 25px;
+    text-align: center;    
+}
+
+#contenedor{
+    width: 85%;
+    min-height: 550px;
+    border: 4px solid rgb(0, 127, 136);
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#valor {
+    margin-top: 5px;
+    padding: 10px;
+    margin-left: 50%;
+    margin-right: auto;
+    text-align: center;
+}
+
+#valorTemp {
+    width: 35%;
+    height: 18px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+    box-shadow: 9px 6px 10px 0px rgba(0,0,0,0.76);
+    text-align: center;
+}
+
+#btn{
+    border: 1px solid rgb(1, 1, 68);
+    background-color: rgb(68, 116, 248);
+    font-size: medium;
+    color: black;
+    margin: 6px;
+    width: 30%;
+    height: 24px;
+    border-radius: 10px;
+    box-shadow: 9px 6px 10px 0px rgba(0,0,0,0.76);
+
+}
+
+#btn:hover {
+    border: 1px solid rgb(3, 3, 68);
+    background-color: rgb(6, 31, 99);
+    font-size: small;
+    color: rgb(255, 255, 255);
+    width: 28%;
+    height: 24px;
+   
+    box-shadow: 9px 5px 8px 0px rgba(0,0,0,0.76);
+    
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.termometro {
+    width: 6%;
+    /* vertical-align: middle; */
+    height: 370px;
+    box-shadow: inset 9px 6px 20px 0px rgba(0,0,0,0.76),9px 6px 10px 0px rgba(0,0,0,0.76);
+    margin-top: 20px;
+    /* padding: 10px 15px; */
+    border-radius: 33px;
+    border: 1px solid rgb(189, 252, 246);
+
+    position: absolute;
+    margin-left: 20%;
+}
+
+#termometro0 {  
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+}
+#termometro1 {  
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(21, 21, 85));
+    visibility: hidden;
+    opacity: 0;
+}
+
+#termometro2 {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(21, 21, 223), rgb(21, 21, 85));
+    visibility: hidden;
+    opacity: 0;
+}
+
+#termometro3 {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(65, 65, 236), rgb(21, 21, 223), rgb(21, 21, 85));
+    visibility: hidden;
+    opacity: 0;
+}
+
+#termometro4 {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(65, 65, 236), rgb(65, 65, 236), rgb(21, 21, 223), rgb(21, 21, 85));
+    visibility: hidden;
+    opacity: 0;
+}
+
+#termometro5 {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(223, 223, 19), rgb(65, 65, 236), rgb(65, 65, 236), rgb(21, 21, 223), rgb(21, 21, 85));
+    visibility: hidden;
+    opacity: 0;
+}
+
+#termometro6 {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), orange, rgb(223, 223, 19), rgb(65, 65, 236), rgb(65, 65, 236), rgb(21, 21, 223), rgb(21, 21, 85));
+    visibility: hidden;
+    opacity: 0;
+}
+
+#termometro7 {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(211, 147, 27), orange, rgb(223, 223, 19), rgb(65, 65, 236), rgb(65, 65, 236), rgb(21, 21, 223), rgb(21, 21, 85));
+    visibility: hidden;
+    opacity: 0;
+}
+
+#termometro8 {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), red, rgb(211, 147, 27), orange, rgb(223, 223, 19), rgb(65, 65, 236), rgb(65, 65, 236), rgb(21, 21, 223), rgb(21, 21, 85));
+    visibility: hidden;
+    opacity: 0;
+}
+
+#termometro9 {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(172, 36, 36), red, rgb(211, 147, 27), orange, rgb(223, 223, 19), rgb(65, 65, 236), rgb(65, 65, 236), rgb(21, 21, 223), rgb(21, 21, 85));
+    visibility: hidden;
+    opacity: 0;
+}
+
+#termometro10 {
+    background-image: linear-gradient(rgb(102, 7, 7), rgb(172, 36, 36), red, rgb(211, 147, 27), orange, rgb(223, 223, 19), rgb(65, 65, 236), rgb(65, 65, 236), rgb(21, 21, 223), rgb(21, 21, 85));
+    visibility: hidden;
+    opacity: 0;
+}
+
+.visual{
+    width: 45%;
+    display: block;
+    position: absolute;
+
+    margin-left: 35%;
+    margin-right: auto ;
+}
+
+#visual{
+    min-width: 100%;
+    min-height: 220px;
+    max-height: 250px;
+
+    position: absolute;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 3px;
+
+    object-fit: cover; /* Fundamental para NO distorcionar las imagenes */
+
+}
+
+.visual:hover{
+   
+    transform: scale(1.1);
+    transition: all 0.8s ease-in;
+    box-shadow: inset 9px 6px 20px 0px rgba(0,0,0,0.76),9px 6px 10px 0px rgba(0,0,0,0.76);
+
+}
+
+#mensaje{
+    width: 100%;
+    position: absolute;
+    font-size: small;
+    margin-top: 260px;
+    text-shadow: black 0px 0px 20px;
+    text-align: center; 
+}
+
+#temp {
+    text-align: center;
+    margin: 8px;
+    border: 2px solid rgb(77, 75, 75);
+    padding: 6px;
+    width: 60%;
+  
+    margin-top: 350px; 
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+  
+    box-shadow: inset 9px 6px 20px 0px rgba(0,0,0,0.76),9px 6px 10px 0px rgba(0,0,0,0.76);
+}
+
+#tempC {
+    width: 40%;
+    text-align: center;
+    margin: 12px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(194, 189, 183);
+    height: 26px;
+    font-size: 25px;
+    box-shadow: inset 9px 6px 20px 0px rgba(0,0,0,0.76),9px 6px 10px 0px rgba(0,0,0,0.76);
+}
+
+#tempF {
+    width: 40%;
+    text-align: center;
+    margin: 12px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(194, 189, 183);
+    height: 26px;
+    font-size: 25px;
+    box-shadow: inset 9px 6px 20px 0px rgba(0,0,0,0.76),9px 6px 10px 0px rgba(0,0,0,0.76);
+}
+
+@media screen and (min-width: 1250px) {
+
+    .termometro {
+        width: 4%;
+        margin-top: 25px;
+        border: 3px solid rgb(189, 252, 246);
+        margin-left: 15%;
+    }
+
+    .visual{
+        width: 55%;
+        margin-left: 30%;
+    }
+
+    #visual{
+        min-width: 100%;
+        min-height: 250px;
+    }
+
+    .visual:hover{
+        transform: scale(1.14);
+        transition: all 0.9s ease-in;
+    }
+
+    #contenedor{
+        width: 75%;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+
+    .termometro {
+        width: 8%;
+        margin-top: 35px;
+        border: 1px solid rgb(189, 252, 246);
+        margin-left: 10%;
+    }
+
+    .visual{
+        width: 45%;
+        margin-left: 30%;
+    }
+
+    #visual{
+        min-width: 100%;
+        min-height: 230px;
+    }
+
+    .visual:hover{
+        transform: scale(1.1);
+        transition: all 0.9s ease-in;
+    }
+
+    #contenedor{
+        width: 90%;
+    }
+
+    #mensaje{
+        font-size: small;
+    } 
+}
+
+@media screen and (max-width: 520px) {
+
+    .termometro {
+        width: 7%;
+        margin-top: 35px;
+        border: 1px solid rgb(189, 252, 246);
+        margin-left: 1%;
+    }
+
+    .visual{
+        width: 32%;
+        margin-left: 15%;
+    }
+
+    #visual{
+        min-width: 100%;
+        min-height: 210px;
+    }
+
+    .visual:hover{
+        transform: scale(1.1);
+        transition: all 0.9s ease-in;
+    }
+
+    #contenedor{
+        width: 98%;
+    }
+
+    #mensaje{
+        font-size: small;
+    }   
+}
+
+@media screen and (max-width: 400px) {
+
+    .termometro {
+        width: 12%;
+        margin-top: 40px;
+        margin-left: 20%;
+    }
+
+    .visual{ visibility: hidden; }
+
+    #mensaje{
+        font-size: x-small;
+    }   
+
+    #btn{ 
+        font-size: small;
+        width: 38%;
+    }
+
+    #btn:hover { 
+        font-size: x-small; 
+        width: 36%;
+    }
+
+    label { font-size: medium; }
+}

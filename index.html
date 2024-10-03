@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termómetro y Temperaturas</title>
+
+    <script src="temperatura.js"></script>
+    <link rel="stylesheet" href="temperatura.css">
+</head>
+
+<body onload="iniciar()">
+
+    <h2>Termómetro y Temperaturas</h2>
+    <div id="contenedor">
+
+            <div id="termometro0" class="termometro"></div>
+            <div id="termometro1" class="termometro"></div>
+            <div id="termometro2" class="termometro"></div>
+            <div id="termometro3" class="termometro"></div>
+            <div id="termometro4" class="termometro"></div>
+            <div id="termometro5" class="termometro"></div>
+            <div id="termometro6" class="termometro"></div>
+            <div id="termometro7" class="termometro"></div>
+            <div id="termometro8" class="termometro"></div>
+            <div id="termometro9" class="termometro"></div>
+            <div id="termometro10" class="termometro"></div>
+
+            <div id="valor">
+                <label id="valorTempLabel" for="valorTemp">Ingrese Temperatura en Grados Celsius:</label>
+                <input id="valorTemp" type="text" placeholder="de -30 a 60" required >
+                <button id="btn" onclick="calcular()">Enviar</button>
+            </div>
+
+            <div class="visual" >
+                <img id="visual" src="" alt="Foto ilustrativa de la temperatura">
+                <h3 id="mensaje"></h3>
+            </div>
+
+
+            <div id="temp">
+
+                <div>
+                    <label for="tempC">Temperatura ºC</label>
+                    <p id="tempC"></p>
+                </div>
+                <div>
+                    <label for="tempF">Temperatura ºF</label>
+                    <p id="tempF"></p>
+
+                    <button id="btn" onclick="iniciar()">Borrar</button>
+
+                </div>
+            
+            </div>
+     
+
+    </div>
+</body>
+</html>

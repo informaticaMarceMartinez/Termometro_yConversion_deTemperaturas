@@ -72,3 +72,12 @@ Para más información sobre mi experiencia en desarrollo web front-end y mis ha
 
 
 ### 🌟 ¡Gracias por tu interés en el proyecto Termómetro y Temperaturas! 🌟
+----------------------------------------------------------------------------
+
+## Licencia
+
+Este proyecto está licenciado bajo la GNU General Public License v3.0 (GPL-3.0).
+
+Esto significa que puedes usar, modificar y distribuir este software libremente, siempre y cuando cualquier trabajo derivado se distribuya bajo los mismos términos de licencia y preserve mi información de autoría.
+
+Para más detalles, consulta el archivo [LICENSE](LICENSE) en este repositorio o visita [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html).
